@@ -13,14 +13,9 @@ export default function ContactForm() {
 
   async function handleSubmit(formData: FormData) {
     setPending(true)
-    try {
-      const response = await submitContactForm(formData)
-      setMessage(response.message)
-    } catch (error) {
-      setMessage("Something went wrong. Please try again.")
-    } finally {
-      setPending(false)
-    }
+    const response = await submitContactForm(formData)
+    setMessage(response.message)
+    setPending(false)
   }
 
   return (
