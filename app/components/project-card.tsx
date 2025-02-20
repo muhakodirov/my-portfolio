@@ -43,7 +43,7 @@ export default function ProjectCard({ title, description, image, link, demoLink,
          Zeige auf GitHub
         </Link>
         {demoLink &&
-          <Link href={demoLink} target="_blank" className="inline-flex items-center gap-2 text-sm hover:underline">
+          <Link href={demoLink} target="_blank" className="inline-flex justify-center mx-4 items-center gap-2 text-md hover:underline">
             Demo
           </Link>
         }
