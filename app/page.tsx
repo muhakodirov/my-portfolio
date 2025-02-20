@@ -99,7 +99,7 @@ export default function Page() {
                 description="Eine Plattform zum Durchsuchen, Speichern und Hinzufügen von Rezepten (nach Anmeldung), mit schneller Datenabfrage und responsivem Design"
                 image="/recipe.webp"
                 link="https://github.com/muhakodirov/recipes-app"
-                demoLink="https://dev-mk.vercel.app"
+                demoLink="https://recipesgram.vercel.app/"
                 tags={["Next.js", "TypeScript", "Tailwind", "Shadcn", "React Query", "Context API", "MongoDB",]}
               />
             </div>
