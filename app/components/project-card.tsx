@@ -8,10 +8,11 @@ interface ProjectCardProps {
   description: string
   image: string
   link: string
+  demoLink?: string
   tags: string[]
 }
 
-export default function ProjectCard({ title, description, image, link, tags }: ProjectCardProps) {
+export default function ProjectCard({ title, description, image, link, demoLink, tags }: ProjectCardProps) {
   return (
     <Card className="overflow-hidden">
       <div className="relative aspect-video">
@@ -39,8 +40,13 @@ export default function ProjectCard({ title, description, image, link, tags }: P
       <CardFooter className="p-4 pt-0">
         <Link href={link} target="_blank" className="inline-flex items-center gap-2 text-sm hover:underline">
           <Github className="h-4 w-4" />
-          Zeige auf GitHub
+         Zeige auf GitHub
         </Link>
+        {demoLink &&
+          <Link href={demoLink} target="_blank" className="inline-flex items-center gap-2 text-sm hover:underline">
+            Demo
+          </Link>
+        }
       </CardFooter>
     </Card>
   )
