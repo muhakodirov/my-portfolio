@@ -40,10 +40,10 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                  Frontend Developer
+                  Muhammad Kodirov
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Ich entwickle moderne und ansprechende digitale Erlebnisse mit den neuesten Technologien. Mein Fokus liegt auf eleganten Frontend-Lösungen für komplexe Herausforderungen – leistungsstark, benutzerfreundlich und ästhetisch überzeugend.
+                  Ich entwickle moderne, benutzerfreundliche Webanwendungen mit aktuellen Technologien – mit Fokus auf ein starkes Design, gute Performance und einfache Bedienung.
                 </p>
               </div>
               <div className="space-x-4">
